@@ -1,0 +1,62 @@
+package com.array.in28minutes;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
+public class Student {
+
+	private String name;
+	private int[] marks;
+	int sum = 0;
+
+	public Student(String name, int... marks) {
+		this.name = name;
+		this.marks = marks;
+
+	}
+
+	public int getNumberOfmarks() {
+		return marks.length;
+	}
+
+	public int getSumOfMarks() {
+		sum = 0;
+		for (int mark : marks) {
+			sum += mark;
+		}
+		return sum;
+	}
+
+	public int getMaxMarks() {
+		int max = 0;
+		for (int i : marks) {
+			if (i > max) {
+				max = i;
+			}
+		}
+		return max;
+	}
+
+	public int getMinMarks() {
+		int min = marks[0];
+		for (int i : marks) {
+			if (i < min) {
+				min = i;
+			}
+		}
+		return min;
+	}
+
+	public BigDecimal getAvgMarks() {
+
+		int sum = (getSumOfMarks());
+		int number = (getNumberOfmarks());
+		return new BigDecimal(sum).divide(new BigDecimal(number), 3, RoundingMode.UP);
+	}
+
+	public String getMaxCharDay(String[] week) {
+		String maxString = "";+
+		return maxString;
+	}
+
+}

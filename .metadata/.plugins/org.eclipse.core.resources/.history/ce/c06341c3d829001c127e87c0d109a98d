@@ -1,0 +1,20 @@
+package com.in28minutes.oopsAgain;
+
+import java.math.BigDecimal;
+
+public class Rectangle {
+	private BigDecimal width;
+	private BigDecimal length;
+	
+	public Rectangle(String width, String length) {
+		this.width = new BigDecimal(width);
+		this.length = new BigDecimal(length);
+		}
+
+	public BigDecimal area() {
+		return width.multiply(length);
+	}
+
+	
+
+}

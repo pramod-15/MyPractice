@@ -1,0 +1,11 @@
+package com.in28minutes.oopsAgain;
+
+
+public class RectangleRunner{
+	
+	public static void main(String[] args) {
+		
+		Rectangle rect = new Rectangle("12", "43");
+		System.out.println(rect.area());
+	}
+}

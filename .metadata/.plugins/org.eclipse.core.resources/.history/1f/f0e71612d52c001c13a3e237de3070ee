@@ -1,0 +1,32 @@
+package com.oopsagain.inheritance;
+
+//Is A relation, Student Is A Person. Whenever there is not Is A relation it is not recommended to use inheritance
+
+public class Student extends Person {
+
+	private String college;
+	private int year;
+
+	public String getCollege() {
+		return college;
+	}
+
+	public void setCollege(String college) {
+		this.college = college;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	@Override
+	public String toString() {
+
+		return String.format(toString() + "\nCollege %s\nYear %d\n", college, year);
+	}
+
+}

@@ -1,0 +1,12 @@
+
+package com.in28minutes.oopsAgain;
+
+public class FanRunner {
+
+	public static void main(String[] args) {
+
+		Fan crom = new Fan("Crompton", 0.3564, "White");
+
+	}
+
+}

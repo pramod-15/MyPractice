@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.primitivedatatype.exercise.Character.java&apos; to &apos;CharacterRunner.java&apos;&#x0D;&#x0A;- Original project: &apos;PrimitiveDataTypeExercise&apos;&#x0D;&#x0A;- Original element: &apos;com.primitivedatatype.exercise.Character.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.primitivedatatype.exercise.CharacterRunner.java&apos;" description="Rename compilation unit &apos;Character.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.primitivedatatype.exercise{Character.java" name="CharacterRunner.java" references="false" stamp="1632713740256" version="1.0"/>
+</session>

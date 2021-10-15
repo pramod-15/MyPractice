@@ -1,0 +1,26 @@
+package com.in28minutes.oopsAgain;
+
+public class Book {
+
+	private String title;
+	private String author;
+	private int id;
+	private ArrayList<Review> reviews = new ArrayList<>();
+
+	public Book(int id, String title, String author) {
+
+		this.title = title;
+		this.author = author;
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return String.format("Title : %s\nAuthor : %s\nRating : %d", title, author, id);
+	}
+
+	public void addReview(Review review) {
+		this.reviews.add(review);
+	}
+
+}

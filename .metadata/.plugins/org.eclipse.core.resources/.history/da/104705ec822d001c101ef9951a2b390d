@@ -1,0 +1,28 @@
+package com.in28minutes.polymorphism;
+
+public class Chess implements GamingConsole {
+
+	@Override
+	public void up() {
+System.out.println("Move piece ahead");		
+	}
+
+	@Override
+	public void down() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void left() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void right() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

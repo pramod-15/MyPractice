@@ -1,0 +1,11 @@
+package com.in28minutes.oopsAgain;
+
+public class BookRunner {
+	public static void main(String[] args) {
+
+		Reviews first = new Reviews("Akash", "Every one should read this book");
+		Book Subtle = new Book("Subtle", "Mark Manson", 7, first);
+
+		System.out.println(Subtle);
+	}
+}

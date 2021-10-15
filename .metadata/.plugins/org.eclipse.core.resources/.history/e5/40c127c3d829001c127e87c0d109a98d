@@ -1,0 +1,13 @@
+package com.in28minutes.oopsAgain;
+
+import java.math.BigDecimal;
+
+public class RectangleRunner {
+	public static void main(String[] args) {
+		
+		Rectangle rect = new Rectangle("45", "50");
+		
+		System.out.println(rect.area());
+		
+	}
+}

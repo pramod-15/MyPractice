@@ -1,0 +1,26 @@
+package com.primitivedatatype.exercise;
+
+import java.math.BigDecimal;
+
+public class SimpleIntrestCalculator {
+
+	BigDecimal principal;
+	BigDecimal rate;
+	BigDecimal timeSpan;
+	BigDecimal totalAmount;
+
+	SimpleIntrestCalculator(String principal, String rate) {
+		this.principal = new BigDecimal(principal);
+		this.rate = new BigDecimal(rate);
+	}
+
+	public BigDecimal totalAmount(String timeSpan) {
+		this.timeSpan = new BigDecimal(timeSpan);
+
+		totalAmount = principal.add(principal);
+		totalAmount = totalAmount.multiply(new BigDecimal(timeSpan));
+		return totalAmount;
+
+	}
+
+}

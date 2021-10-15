@@ -1,0 +1,14 @@
+
+package com.in28minutes.oopsAgain;
+
+public class FanRunner {
+	
+	public static void main(String[] args) {
+		
+		Fan crom = new Fan();
+		
+		crom.make();
+		
+	}
+
+}

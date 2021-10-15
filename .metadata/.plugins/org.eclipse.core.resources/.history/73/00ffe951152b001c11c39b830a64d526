@@ -1,0 +1,16 @@
+package com.in28minutes.oopsAgain;
+
+public class CustomerRunner {
+
+	public static void main(String[] args) {
+
+		Address rohitHome = new Address("Near bus Stop", "Kolhapur", "416112");
+		Address rohitWork = new Address("Kolhapur steel ltd", "Kolhapur", "416145");
+
+		Customer Rohit = new Customer("Rohit", rohitHome, rohitWork);
+
+		System.out.println(Rohit);
+
+	}
+
+}

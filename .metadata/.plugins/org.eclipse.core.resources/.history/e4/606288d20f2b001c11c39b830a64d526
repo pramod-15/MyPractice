@@ -1,0 +1,13 @@
+package com.in28minutes.oopsAgain;
+
+public class Customer {
+
+	// states, Properties
+
+	private String name;
+	private Address homeAddress;
+	private Address workAddress;
+
+	// creating
+
+}

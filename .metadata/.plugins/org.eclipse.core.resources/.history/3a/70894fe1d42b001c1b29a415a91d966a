@@ -1,0 +1,18 @@
+package com.in28minutes.oopsAgain;
+
+public class Reviews {
+
+	private String review;
+	private String name;
+
+	public Reviews(String name, String review) {
+		this.name = name;
+		this.review = review;
+	}
+
+	@Override
+	public String toString() {
+
+		return String.format("My name is %s and I will say %s", name, review);
+	}
+}

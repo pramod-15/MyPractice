@@ -1,0 +1,12 @@
+package com.in28minutes.oopsAgain;
+
+public class BookRunner {
+	public static void main(String[] args) {
+
+		Book Subtle = new Book("Subtle", "Mark Manson", 7);
+		System.out.println(Subtle);
+		Subtle.changeTitle("The Subtle Art");
+		System.out.println(Subtle);
+
+	}
+}

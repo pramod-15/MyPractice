@@ -1,0 +1,17 @@
+package com.in28minutes.polymorphism;
+
+public class GamingConsoleRunner {
+
+	GamingConsole [] games = {new Mario(), new Chess()};
+
+	for(
+	GamingConsole game:games)
+	{
+
+		game.up();
+		game.down();
+		game.right();
+		game.left();
+	}
+
+}

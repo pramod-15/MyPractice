@@ -1,0 +1,26 @@
+package com.in28minutes.oopsAgain;
+
+public class Book {
+
+	private String title;
+	private String author;
+	private int rating;
+	
+	private Reviews review;
+	
+	public Book(String title, String author, int rating, Reviews review) {
+
+		this.title = title;
+		this.author = author;
+		this.rating = rating;
+
+	}
+
+	@Override
+	public String toString() {
+		return String.format("Title : %s\nAuthor : %s\nRating : %d", title, author, rating);
+	}
+	
+	
+
+}

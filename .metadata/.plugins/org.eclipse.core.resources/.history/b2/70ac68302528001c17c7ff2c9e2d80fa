@@ -1,0 +1,9 @@
+package com.in28minutes.oopsAgain;
+
+public class Fan {
+
+	public void make() {
+		System.out.println("Fan made by Crompton");
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.primitivedatatype.exercise;
+
+import java.math.BigDecimal;
+
+public class SimpleIntrestCalculatorRunner {
+
+	public static void main(String[] args) {
+
+		SimpleIntrestCalculator calculator = new SimpleIntrestCalculator("4500", "7.5");
+
+		BigDecimal totalValue = calculator.totalAmount("4");
+		
+		System.out.println(totalValue);
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.primitivedatatype.exercise;
+
+public class SimpleIntrestCalculatorRunner {
+
+	public static void main(String[] args) {
+
+		SimpleIntrestCalculator calculator = new SimpleIntrestCalculator("4500", "7.5");
+
+		System.out.println("Total amount is " + calculator.totalAmount("4"));
+
+	}
+
+}
